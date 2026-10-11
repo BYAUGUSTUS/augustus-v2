@@ -10,7 +10,7 @@ const GATE_LANES = [
   {
     id: "01",
     name: "PORTFOLIO",
-    url: "https://portfolio.byaugustus.com",
+    url: "https://augustus-portfolio-lac.vercel.app/",
   },
   {
     id: "02",

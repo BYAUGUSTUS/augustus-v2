@@ -42,7 +42,7 @@ export default function Navbar() {
       {/* Top Command Row */}
       <div className="w-full h-14 sm:h-16 flex items-center justify-between px-6 sm:px-12 bg-[#eae6de] relative">
         <a
-          href="https://byaugustus.com"
+          href="https://augustus-nine.vercel.app/"
           className="flex items-center gap-2 font-serif font-black text-xs sm:text-sm uppercase tracking-widest hover:text-[#DE9E48] transition-colors"
         >
           <span>← RETURN TO GATE</span>
