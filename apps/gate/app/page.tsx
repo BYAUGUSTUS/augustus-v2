@@ -124,7 +124,7 @@ export default function AugustusMangaGate() {
 
         {/* Absolute Dead-Center: True Curvy Calligraphic "AG" */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center select-none z-20">
-          <span className="font-curvy text-4xl sm:text-5xl text-black tracking-normal leading-none hover:scale-110 transition-transform duration-200 cursor-pointer pt-1">
+          <span style={{ fontFamily: "var(--font-beau-rivage), 'Beau Rivage Local', 'Beau Rivage', cursive", }} className="font-beau-rivage text-5xl sm:text-6xl text-[#0e0b0b] leading-none select-none">
             AG
           </span>
         </div>

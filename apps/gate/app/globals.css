@@ -42,3 +42,22 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+/* filepath: apps/gate/app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+@font-face {
+  font-family: 'Beau Rivage Local';
+  src: url('/fonts/BeauRivage-Regular.ttf') format('truetype'),
+       url('/fonts/BeauRivage.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+/* Enforce Beau Rivage utility */
+.font-beau-rivage {
+  font-family: var(--font-beau-rivage), 'Beau Rivage Local', 'Beau Rivage', cursive !important;
+}
