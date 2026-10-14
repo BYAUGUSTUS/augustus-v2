@@ -1,26 +1,44 @@
+/* filepath: apps/news/app/globals.css */
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Tell Tailwind v4 to scan your components and app folders */
+@source "../components";
+@source "../app";
+
+@font-face {
+  font-family: 'Beau Rivage Local';
+  src: url('/fonts/BeauRivage-Regular.ttf') format('truetype'),
+       url('/fonts/BeauRivage.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #eae6de;
+  color: #0e0e10;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-beau-rivage {
+  font-family: 'Beau Rivage Local', 'Beau Rivage', cursive !important;
+}
+
+.manga-paper {
+  background-color: #eae6de;
+  background-image: 
+    radial-gradient(rgba(0, 0, 0, 0.06) 1.2px, transparent 1.2px),
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 10px 10px, 36px 36px;
 }

@@ -1,0 +1,8 @@
+// filepath: apps/news/postcss.config.mjs
+const postcssConfig = {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
+
+export default postcssConfig;

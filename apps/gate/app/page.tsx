@@ -153,7 +153,7 @@ export default function AugustusMangaGate() {
         </div>
 
         <div className="py-2.5 sm:py-3 flex items-center justify-center font-mono text-xs text-black/80">
-          JAIPUR, INDIA [26.9°N]
+          JAIPUR, INDIA
         </div>
       </nav>
 
